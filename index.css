@@ -1,0 +1,75 @@
+.topsection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+footer {
+    background-color: lightgrey;
+    text-align: center;
+    padding: 25px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.description {
+    width: 200px;
+    text-align: center;
+    padding: 20px;
+}
+
+button {
+    background-color: white;
+    color: black;
+    border: black solid 1px;
+    padding: 5px 10px;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+    border: white solid 1px;
+}
+
+button a {
+    text-decoration: none;
+    color: inherit;
+}
+
+@media (max-width: 800px){
+    .toppicture {
+        width: 100vw;
+    }
+    .row {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 10%;
+    }
+    .img1 {
+        width: 50%;
+        margin: auto;
+    }
+    .img2 {
+        width: 50%;
+        margin: auto;
+    }
+    .img3 {
+        width: 50%;
+        margin: auto;
+    }
+    .img4 {
+        width: 50%;
+        margin: auto;
+    }
+    .description {
+        justify-content: center;
+        margin: auto;
+    }
+
+}
